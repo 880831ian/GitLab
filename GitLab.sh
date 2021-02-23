@@ -15,13 +15,13 @@ echo "${yellow}腳本將在一秒後開始．．．．．${white}"
 sleep 1
 ##############################setting#####################################
 
-#sudo apt-get install net-tools openssh-server ca-certificates postfix tzdata -y
+sudo apt-get install net-tools openssh-server ca-certificates postfix tzdata -y
 
-#curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 
-#sudo apt-get install gitlab-ce -y
+sudo apt-get install gitlab-ce -y
 
-#sudo gitlab-ctl reconfigure
+sudo gitlab-ctl reconfigure
 
 var=`expr $var + 1`;num=`expr $num + 1`;
 dpkg -l | grep "net-tools" 1>/dev/null
