@@ -4,7 +4,7 @@
 **Ubuntu 版本：Ubuntu 20.04.2 LTS**
 
 **資料來源**
-* Git https://xenby.com/b/131-%E6%8E%A8%E8%96%A6-gitlab%E5%AE%89%E8%A3%9D%E8%88%87%E5%9F%BA%E6%9C%AC%E8%A8%AD%E5%AE%9A%E6%95%99%E5%AD%B8
-* Gitlab架設 https://xenby.com/b/131-%E6%8E%A8%E8%96%A6-gitlab%E5%AE%89%E8%A3%9D%E8%88%87%E5%9F%BA%E6%9C%AC%E8%A8%AD%E5%AE%9A%E6%95%99%E5%AD%B8
+* Git https://backlog.com/git-tutorial/tw/intro/intro1_2.html
+* Gitlab架設 https://reurl.cc/1g1ydW
 
 
