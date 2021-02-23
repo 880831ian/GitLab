@@ -3,6 +3,8 @@
 
 **Ubuntu 版本：Ubuntu 20.04.2 LTS**
 
+**附上可直接省略以下步驟程式腳本**
+
 **資料來源**
 * Git：https://backlog.com/git-tutorial/tw/intro/intro1_2.html
 * GitLab架設：https://reurl.cc/1g1ydW
