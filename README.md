@@ -3,7 +3,7 @@
 
 **Ubuntu 版本：Ubuntu 20.04.2 LTS**
 
-**附上可直接省略以下步驟程式腳本(使用wget https://github.com/880831ian/GitLab/blob/main/GitLab.sh)**
+**附上可直接省略以下步驟程式腳本(使用```wget https://github.com/880831ian/GitLab/blob/main/GitLab.sh```)**
 
 **資料來源**
 * Git：https://backlog.com/git-tutorial/tw/intro/intro1_2.html
