@@ -5,7 +5,7 @@
 
 **附上可直接省略以下步驟程式腳本(使用```wget https://github.com/880831ian/GitLab/blob/main/GitLab.sh```下載後執行即可完成安裝)**
 
-**也可以自己一步一步來設定**
+**也可以跟以下步驟一步一步來設定↓↓↓**
 
 **資料來源**
 * Git：https://backlog.com/git-tutorial/tw/intro/intro1_2.html
