@@ -15,7 +15,7 @@
 **系統支援性**
 
 **1. 先查詢要安裝的作業系統是否支援GitLab (本次使用Ubuntu來當作業系統)。**
-```
+```sh
 https://about.gitlab.com/installation/
 ```
 ![image](https://github.com/880831ian/GitLab/blob/main/images/1.png)
@@ -26,25 +26,30 @@ https://about.gitlab.com/installation/
 
 **2. GitLab支援寄信服務，需要安裝postfix。**
 
-```
+```sh
 sudo apt-get install net-tools openssh-server ca-certificates postfix tzdata -y
 ```
 **3. 下載GitLab package server**
 
-```
+```sh
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 ```
 **4. 安裝GitLab package server**
 
-```
+```sh
 sudo apt-get install gitlab-ce
 ```
 **5. 配置GitLab的環境**
 
-```
+```sh
 sudo gitlab-ctl reconfigure
 ```
-`*因GitLab預設為80 Port，若已被佔用，可以自行修改*`
+
+`因GitLab預設為80 Port，若已被佔用，可以自行修改`
+
+```sh
+sudo vim /etc/gitlab/gitlab.rb
+```
 
 ![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/1.png)
 
