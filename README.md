@@ -44,7 +44,8 @@ sudo apt-get install gitlab-ce
 ```
 sudo gitlab-ctl reconfigure
 ```
-`Format one word or one line*`
+`*因GitLab預設為80 Port，若已被佔用，可以自行修改*`
+
 ![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/1.png)
 
 
