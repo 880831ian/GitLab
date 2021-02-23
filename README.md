@@ -52,7 +52,7 @@ sudo vim /etc/gitlab/gitlab.rb
 ```
 **找到external_url，修改為自己的url及Port**
 
-![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/1.png)
+![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/2.png)
 
 
 
