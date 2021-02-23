@@ -12,7 +12,7 @@
 ```
 https://about.gitlab.com/installation/
 ```
-![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/13.png)
+![image](https://github.com/880831ian/GitLab/blob/main/images/1.png)
 
 **1. 設備於Mac OS上，使用Parallels Desktop建立3台虛擬機。**
 ```
