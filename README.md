@@ -29,6 +29,22 @@ https://about.gitlab.com/installation/
 ```
 sudo apt-get install net-tools openssh-server ca-certificates postfix tzdata -y
 ```
+**3. 下載GitLab package server**
+
+```
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+```
+**4. 安裝GitLab package server**
+
+```
+sudo apt-get install gitlab-ce
+```
+**5. 配置GitLab的環境**
+
+```
+sudo gitlab-ctl reconfigure
+```
+
 ![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/1.png)
 
 
