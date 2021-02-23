@@ -15,7 +15,7 @@
 **系統支援性**
 
 **1. 先查詢要安裝的作業系統是否支援GitLab (本次使用Ubuntu來當作業系統)。**
-```sh
+```shell
 https://about.gitlab.com/installation/
 ```
 ![image](https://github.com/880831ian/GitLab/blob/main/images/1.png)
