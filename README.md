@@ -7,16 +7,22 @@
 * Git：https://backlog.com/git-tutorial/tw/intro/intro1_2.html
 * GitLab架設：https://reurl.cc/1g1ydW
 
-# GitLab 架設環境
+# GitLab 架設
 **系統支援性**
+
+**1. 先查詢要安裝的作業系統是否支援GitLab (本次使用Ubuntu來當作業系統)。**
 ```
 https://about.gitlab.com/installation/
 ```
 ![image](https://github.com/880831ian/GitLab/blob/main/images/1.png)
 
-**1. 設備於Mac OS上，使用Parallels Desktop建立3台虛擬機。**
+**安裝需要插件**
+
+**1. 因Git使用ssh需要安全性驗證，需要安裝openssh-server ca-certificates。**
+**2. GitLab支援寄信服務，需要安裝postfix。**
+
 ```
-https://www.parallels.com/hk/products/desktop/
+sudo apt-get install curl openssh-server ca-certificates postfix tzdata -y
 ```
 ![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/1.png)
 
