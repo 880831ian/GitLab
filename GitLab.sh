@@ -10,6 +10,7 @@ echo "${yellow}時間：$nowtime${white}" | tee -a log.txt
 echo "${yellow}腳本將在一秒後開始．．．．．${white}"
 sleep 1
 ##############################setting#####################################
+sudo cp /usr/share/zoneinfo/Asia/Taipei /etc/localtime
 
 sudo apt-get install net-tools openssh-server ca-certificates postfix tzdata -y
 
