@@ -25,7 +25,7 @@ https://about.gitlab.com/installation/
 **2. GitLab支援寄信服務，需要安裝postfix。**
 
 ```
-sudo apt-get install curl openssh-server ca-certificates postfix tzdata -y
+sudo apt-get install openssh-server ca-certificates postfix tzdata -y
 ```
 ![image](https://github.com/880831ian/kubernetes-elk/blob/main/images/1.png)
 
