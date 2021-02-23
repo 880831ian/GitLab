@@ -1,16 +1,12 @@
 #!/bin/bash
 ##############################setting#####################################
-
 green="\e[32m";white="\e[0m";red="\e[31m";blue="\e[34m";yellow="\e[33m"
 nowtime=`date "+%F %T"`
-starttime=`date +'%Y-%m-%d %H:%M:%S'`
-ip=`ifconfig | grep 'inet' | sed 's/        inet //' | sed 's/netmask.*//' | grep -v 'inet6' | grep -v '127.0.0.1'`
 ##############################export#####################################
 echo "${yellow}－－－－－以下說明－－－－－${white}"
 echo "${yellow}執行GitLab 系統安裝${white}"
 echo "${yellow}適用於Ubuntu OS${white}"
 echo "${yellow}時間：$nowtime${white}" | tee -a log.txt
-echo "${yellow}IP：$ip ${white}" | tee -a log.txt
 echo "${yellow}腳本將在一秒後開始．．．．．${white}"
 sleep 1
 ##############################setting#####################################
@@ -22,6 +18,8 @@ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/scrip
 sudo apt-get install gitlab-ce -y
 
 sudo gitlab-ctl reconfigure
+
+ip=`ifconfig | grep 'inet' | sed 's/        inet //' | sed 's/netmask.*//' | grep -v 'inet6' | grep -v '127.0.0.1'`
 
 var=`expr $var + 1`;num=`expr $num + 1`;
 dpkg -l | grep "net-tools" 1>/dev/null
