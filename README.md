@@ -19,6 +19,7 @@ https://about.gitlab.com/installation/
 **安裝需要插件**
 
 **1. 因Git使用ssh需要安全性驗證，需要安裝openssh-server ca-certificates。**
+
 **2. GitLab支援寄信服務，需要安裝postfix。**
 
 ```
