@@ -52,6 +52,10 @@ sudo vim /etc/gitlab/gitlab.rb
 ```
 **找到external_url，修改為自己的url及Port**
 
+![image](https://github.com/880831ian/GitLab/blob/main/images/3.png)
+
+**跑完腳本如都顯示安裝成功，代表完成**
+
 ![image](https://github.com/880831ian/GitLab/blob/main/images/2.png)
 
 
