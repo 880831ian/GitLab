@@ -3,7 +3,7 @@
 
 **Ubuntu 版本：Ubuntu 20.04.2 LTS**
 
-**附上可直接省略以下步驟程式腳本(使用```wget https://github.com/880831ian/GitLab/blob/main/GitLab.sh```下載後執行即可完成安裝)**
+**附上可直接省略以下步驟程式腳本(使用```git clone https://github.com/880831ian/GitLab.git```下載後執行即可完成安裝)**
 
 **也可以跟以下步驟一步一步來設定↓↓↓**
 
