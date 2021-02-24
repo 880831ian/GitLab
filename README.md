@@ -18,7 +18,7 @@
 ```shell
 https://about.gitlab.com/installation/
 ```
-![image](https://github.com/880831ian/GitLab/blob/main/images/1.png)
+![image](https://raw.githubusercontent.com/880831ian/GitLab/main/images/1.png)
 
 **安裝需要插件**
 
