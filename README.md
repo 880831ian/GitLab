@@ -1,4 +1,3 @@
-# GitLab
 **使用Ubuntu架設GitLab**
 
 **Ubuntu 版本：Ubuntu 20.04.2 LTS**
@@ -15,9 +14,12 @@
 **系統支援性**
 
 **1. 先查詢要安裝的作業系統是否支援GitLab (本次使用Ubuntu來當作業系統)。**
+
 ```shell
 https://about.gitlab.com/installation/
 ```
+<br>
+
 ![image](https://raw.githubusercontent.com/880831ian/GitLab/main/images/1.png)
 
 **安裝需要插件**
@@ -50,13 +52,15 @@ sudo gitlab-ctl reconfigure
 ```sh
 sudo vim /etc/gitlab/gitlab.rb
 ```
+
 **找到external_url，修改為自己的url及Port**
+
+<br>
 
 ![image](https://raw.githubusercontent.com/880831ian/GitLab/main/images/3.png)
 
 **跑完腳本如都顯示安裝成功，代表完成**
 
+<br>
+
 ![image](https://raw.githubusercontent.com/880831ian/GitLab/main/images/2.png)
-
-
-
